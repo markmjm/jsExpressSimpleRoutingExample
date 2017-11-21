@@ -10,7 +10,7 @@ app.get("/speak/:animal", function(req, res){
     if(animal === 'pig'){
         res.send("the pig says 'Oink'");
     }else if(animal === 'cow') {
-        res.send("the pig says 'Moo'");
+        res.send("the cown says 'Moo'");
     } else if(animal === 'dog') {
         res.send("the dog says 'Woof Woof!'");
     }
